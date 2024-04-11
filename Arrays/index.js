@@ -5,7 +5,7 @@
  * unshift() = add item to array as first index
  */
 
-var studentName = ["Kamal", "Nimal", "Sunil", "Pawan"];
+/*var studentName = ["Kamal", "Nimal", "Sunil", "Pawan"];
 var teachersName = []; // Using array literal notation
 
 console.log("Initial student names:", studentName);
@@ -44,4 +44,20 @@ console.log("---------------------------------------------");
 console.log("Displaying student names using forEach method:");
 studentName.forEach(names => {
     console.log(names);
+});*/
+
+/*
+Task: Write a JavaScript function that takes an array of numbers as input and returns the sum of all the numbers in the array.
+*/
+
+var numbers = [10, 20, 30, 40.5, 50];
+var sum = 0;
+
+numbers.forEach((num) => {
+  sum = sum + num;
 });
+console.log(sum);
+
+let even = numbers.filter((num) => num % 2 !== 0);
+
+console.log(even);
