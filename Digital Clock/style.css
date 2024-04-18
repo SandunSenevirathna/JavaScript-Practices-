@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Making sure the body covers the viewport height */
+    margin: 0; /* Removing default margin */
+    background-color: #1F1F1F;
+    transition-duration: 100ms;
+}
+
+
+#lblClock {
+    font-size: 150px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
