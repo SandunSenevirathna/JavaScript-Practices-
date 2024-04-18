@@ -42,4 +42,5 @@ function getReturnValue(num1, num2){
 
 
 printDate(daysOfWeek, 1);
+
 document.writeln(getReturnValue(6, 10));
